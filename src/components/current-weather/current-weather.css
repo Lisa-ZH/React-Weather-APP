@@ -1,0 +1,83 @@
+/* currentWeather */
+.currentWeather{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	height: 280px;
+	margin: 1em 0;
+}
+.currentWeather .left{
+	width: 70%;
+	padding: 2em 2em 0 2em;
+	background-image:linear-gradient(to bottom,#0181C2,#04A7F9,#4BC4F7);
+	border-top-left-radius: 20px;
+}
+.currentWeather .right{
+	width: 30%;
+	/* background-image:linear-gradient(to bottom,#0182cd,#0c92de,#259fde); */
+	background-color: #eee;
+	border-top-right-radius: 20px;
+}
+
+.currentWeather .city{
+	color: #fff;
+	font-size: 1.5em;
+}
+.currentWeather .date{
+	color: #B5DEF4;
+	font-size: .8em;
+	font-weight: 700;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #b5def4;
+}
+.currentWeather .temperture{
+	color: #fff;
+	font-size: 3em;
+	padding-top: .5em;
+}
+.currentWeather .max-min{
+	color: #B5DEF4;
+	font-size: .8em;
+	font-weight: 700;
+	padding-top: .8em;
+}
+.currentWeather .currentWeather-image-small{
+	display: inline-block;
+	width: 30px;
+	
+}
+.currentWeather .description{
+	color: #B5DEF4;
+	font-size: .9em;
+	font-weight: 700;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #b5def4;
+}
+.currentWeather .description span{
+	padding-left: 10px;
+}
+.currentWeather .wind{
+	display: inline-block;
+	color: #B5DEF4;
+	font-size: .8em;
+	font-weight: 700;
+	padding-top: .5em;
+}
+.currentWeather .humidity{
+	display: inline-block;
+	color: #B5DEF4;
+	font-size: .8em;
+	font-weight: 700;
+	padding-left: 20px;
+}
+.currentWeather .right{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.currentWeather img.currentWeather-image-large{
+	width: 60%;
+	height: 35%;
+}

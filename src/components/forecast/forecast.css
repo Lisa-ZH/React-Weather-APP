@@ -1,0 +1,29 @@
+/* forecast */
+.forecast{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	gap: 10px;
+  background-color: #fff;
+}
+.daily-item{
+	padding-right: 1em;
+	color: #777;
+	font-size: .8em;
+	text-align: center;
+	padding-bottom: 1em;
+	/*border-right: 1px solid #eee;*/
+}
+
+.daily-item:last-child{
+	border: none;
+}
+.forecast .date{
+	color: #777;
+	
+}
+
+.forecast .description{
+	line-height: 1.2em;
+}
